@@ -25,11 +25,12 @@
                 embed.setDescription(`**Karma's Prefix Is \`${prefix}\`\n\nFor Help Related To A Particular Command Type -\n\`${prefix}help [command name] Or ${prefix}help [alias]\`**`)
                 embed.setFooter(`${message.guild.me.displayName} | Total Commands - ${client.commands.size - 1} Loaded`, client.user.displayAvatarURL());
                 embed.addField(`${client.emotes.info} Info [4] - `, '`help`, `info`, `invite`, `uptime`')
+                embed.addField(`🔲 Buttons [2] - `, '`ttt`, `snake`')
                 embed.addField(`${client.emotes.anime} Anime [15] - `, '`anime`, `baka`, `fact`, `hug`, `karma`, `kiss`, `neko`, `pat`, `poke`, `slap`, `smug`, `tickle`, `waifu`, `whatanime`, `wink`')
                 embed.addField(`${client.emotes.chatbot} Chatbot [3] - `, '`chatbot`, `disableChatbotchannel`, `setChatbotchannel`')
-                embed.addField(`${client.emotes.fun} Fun [13] - `, '`binary`, `clyde`, `comment`, `eject`, `emojify`, `github`, `iq`, `npm`, `osu`, `ping`, `reddit`, `weather`, `zalgo`')
+                embed.addField(`${client.emotes.fun} Fun [16] - `, '`binary`, `clyde`, `comment`, `eject`, `emojify`, `github`, `iq`, `npm`, `osu`, `ping`, `reddit`, `weather`, `zalgo`, `country`, `applestore`, `playstore`')
                 embed.addField(`${client.emotes.image} Image [10] - `, '`fire`, `respect`, `rip`, `scary`, `trash`, `triggered`, `beautiful`, `affect`, `delete`, `thomas`')
-                embed.addField(`${client.emotes.music1} Music [14] - `, '`clear-queue`, `filter`, `filters`, `loop`, `np`, `pause`, `lyrics`, `play`, `queue`, `resume`, `shuffle`, `skip` `stop`, `volume`, `leave`')
+                embed.addField(`${client.emotes.music1} Music [15] - `, '`clear-queue`, `filter`, `filters`, `loop`, `np`, `search`, `pause`, `lyrics`, `play`, `queue`, `resume`, `shuffle`, `skip` `stop`, `volume`, `leave`')
                 embed.addField(`${client.emotes.other} Other [7] -`, '`avatar`, `profile`, `serverinfo`, `snipe`, `urban`, `wiki`, `addemoji`, `emojilist`')
                 if(message.channel.nsfw) {
                     embed.addField(`${client.emotes.nsfw} NSFW [3] - `, '`hentai`, `thighs`, `bondage`')

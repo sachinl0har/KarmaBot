@@ -5,7 +5,7 @@
 [![Run on Repl.it](https://repl.it/badge/github/DeltaCoderr/KarmaBot)](https://repl.it/github/DeltaCoderr/KarmaBot)
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/DeltaCoderr/KarmaBot)
 [![](https://img.shields.io/badge/discord.js-v12.0.0--dev-blue.svg?logo=npm)](https://github.com/discordjs)
->  A Mulitpurpose Discord Bot with a Music System used by 200K+ users and more than 1900 servers.
+>  A Multipurpose Discord Bot with a Music System used by 200K+ users and more than 2000 servers.
 
 Karma Bot is a open source Discord bot coded in JavaScript with [Discord.js](https://discord.js.org) by [DeltaCoderr](https://github.com/DeltaCoderr).  
 
@@ -66,8 +66,9 @@ Karma has a lot of features, with **8 main categories**:
     "embedcolor": "", // Your EmbedColor
     "dev": "",        // Owner's Discord ID
     "token": "",      // Bot's Token
-    "database": "",  //Your DataBase URL to store the ChatBot's Channel data
-    "AME_API": ""     //AME_API for Image Commands. Key can be found here -> (https://docs.api.amethyste.moe)
+    "database": "",   // Your DataBase URL to store the ChatBot's Channel data
+    "FACT_API": "",   // Get the api from the discord server 
+    "AME_API": ""     // AME_API for Image Commands. Key can be found here -> (https://docs.api.amethyste.moe)
 }
 ```
 * Set up your **[emotes.json](https://github.com/DeltaCoderr/KarmaBot/blob/main/configs/emotes.json)** file with your Emoji IDS.
@@ -86,6 +87,7 @@ Karma has a lot of features, with **8 main categories**:
     "image": "",
     "anime": "",
     "nsfw": "",
+    "diskspin": "",
     "other": ""
 }
 ```
